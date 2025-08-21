@@ -1,0 +1,87 @@
+## 🏷️ **SEMANTIC ASSET CLASSIFICATION SYSTEM**
+
+### **ICON CATEGORIES & RULES**
+
+#### **🧭 Navigation Icons** *(Bottom Nav, Tab Bars)*
+**Context Rule**: Primary app navigation only
+- `nav-home-icon` - House/home symbol
+- `nav-activity-icon` - Clock/timeline symbol  
+- `nav-actions-icon` - Plus/add symbol *(NOT checkbox!)*
+- `nav-cards-icon` - Credit card symbol
+- `nav-accounts-icon` - Multiple rectangles/accounts
+
+#### **📝 Form Control Icons** *(Settings, Forms)*
+**Context Rule**: User input controls only
+- `form-checkbox-unchecked` - Empty square
+- `form-checkbox-checked` - Square with checkmark
+- `form-radio-unselected` - Empty circle
+- `form-radio-selected` - Filled circle
+- `form-toggle-off` - Switch in off position
+- `form-toggle-on` - Switch in on position
+
+#### **⚡ Action Icons** *(Buttons, CTAs)*
+**Context Rule**: Trigger specific actions
+- `action-add-primary` - Plus in circle/square
+- `action-edit-pencil` - Pencil/edit symbol
+- `action-share-arrow` - Share/export arrow
+- `action-more-dots` - Three dots menu
+- `action-close-x` - X close symbol
+
+#### **🏛️ Brand & Identity Icons**
+**Context Rule**: Payoneer branding elements
+- `brand-payoneer-logo` - Main logo
+- `brand-payoneer-icon` - P symbol
+- `country-flag-usa` - US flag icon
+- `country-flag-eur` - EU flag icon
+- `country-flag-gbp` - UK flag icon
+
+#### **💰 Financial Icons** *(Money, Transactions)*
+**Context Rule**: Financial data representation
+- `financial-currency-usd` - Dollar symbol
+- `financial-currency-eur` - Euro symbol  
+- `financial-currency-gbp` - Pound symbol
+- `financial-arrow-up-positive` - Green up arrow
+- `financial-arrow-down-negative` - Red down arrow
+
+### **ILLUSTRATION CATEGORIES**
+
+#### **🔒 Security & Verification** *(High Priority)*
+**Context Rule**: Trust, safety, verification flows
+- `security-document-verification` - Document with checkmark
+- `security-shield-protection` - Shield symbol
+- `security-lock-secure` - Lock icon
+- `verification-id-card` - ID card illustration
+- `verification-selfie-camera` - Camera/selfie icon
+
+#### **👤 User & Avatar System**
+**Context Rule**: User representation and status
+- `user-avatar-placeholder` - Default profile circle
+- `user-avatar-verified-badge` - Checkmark overlay
+- `user-initials-circle` - Letter-based avatar
+- `user-status-online` - Green dot indicator
+
+### **CONTEXTUAL SELECTION RULES**
+
+**🚨 CRITICAL RULES TO PREVENT MISUSE:**
+1. **Navigation Context** → ONLY use `nav-*` icons
+2. **Form Context** → ONLY use `form-*` icons  
+3. **Button Context** → ONLY use `action-*` icons
+4. **Financial Context** → Prioritize `financial-*` icons
+5. **Security Context** → Prioritize `security-*` icons
+
+**⚠️ NEVER MIX:**
+- Form controls (`form-checkbox`) in navigation
+- Navigation icons (`nav-actions`) in form settings
+- Brand icons in functional UI elements
+
+---
+
+**NEXT STEPS:**
+1. ✅ **Semantic Classification Complete**
+2. Apply labels to all 35+ extracted assets
+3. Create contextual validation rules
+4. Test with corrected bottom nav icons
+5. Build asset selection hierarchy by context
+
+*Status: Ready for Semantic Asset Implementation*
+*Total Assets: 35+ elements with full semantic categorization*

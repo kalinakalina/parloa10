@@ -1,0 +1,559 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Parloa Icon Pack – All SVGs</title>
+  <style>
+    :root { --bg:#0b0b0b; --panel:#111; --ink:#f5f5f5; --muted:#a9a9a9; }
+    * { box-sizing: border-box; }
+    body {
+      margin:0; padding:24px; background:var(--bg); color:var(--ink);
+      font:14px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    }
+    h1 { margin:0 0 8px; font-size:18px; }
+    p.lead { margin:0 0 16px; color:var(--muted); }
+    .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap:14px; }
+    .card { background:var(--panel); border-radius:16px; padding:12px; display:flex; gap:12px; align-items:flex-start; border:1px solid #1c1c1c; }
+    .card svg { width:48px; height:48px; background:#000; border-radius:12px; flex:none; display:block; }
+    .meta .name { font-weight:600; }
+    .meta .vb { font-size:12px; color:var(--muted); }
+    .meta code { display:block; margin-top:6px; background:#0a0a0a; padding:6px 8px; border-radius:8px; color:#ddd; overflow:auto; }
+    .bar { position:sticky; top:0; backdrop-filter: blur(8px); background:rgba(11,11,11,.65); padding:6px 0 12px; margin:-12px 0 12px; }
+    .pill { display:inline-block; padding:4px 8px; border:1px solid #2a2a2a; border-radius:999px; font-size:12px; color:#ccc; margin-right:6px; }
+  </style>
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+    
+  <symbol id="anchor" viewBox="0 0 24 24">
+    <path d="M12 2v6"/>
+  <circle cx="12" cy="9" r="1.5"/>
+  <path d="M5 12a7 7 0 0 0 14 0"/>
+  <path d="M8 12h-3v3"/>
+  <path d="M16 12h3v3"/>
+  </symbol>
+  <symbol id="beaker" viewBox="0 0 24 24">
+    <path d="M6 3h12"/>
+  <path d="M8 3v6l-4.5 7.5A2 2 0 0 0 5.2 20H18.8a2 2 0 0 0 1.7-3.5L16 9V3"/>
+  <path d="M9 14h6"/>
+  </symbol>
+  <symbol id="book" viewBox="0 0 24 24">
+    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+  <path d="M4 4v15.5"/>
+  <path d="M20 22V6a2 2 0 0 0-2-2H6.5A2.5 2.5 0 0 0 4 6.5"/>
+  </symbol>
+  <symbol id="call_tab" viewBox="0 0 24 24">
+    <path d="M22 16.92v2a2 2 0 0 1-2.18 2 19.83 19.83 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.83 19.83 0 0 1-3.07-8.65A2 2 0 0 1 4.1 1h2a2 2 0 0 1 2 1.72c.12.91.33 1.79.62 2.64a2 2 0 0 1-.45 2.11L7.1 8.9a16 16 0 0 0 6 6l1.43-1.17a2 2 0 0 1 2.11-.45c.85.29 1.73.5 2.64.62A2 2 0 0 1 22 16.92Z"/>
+  </symbol>
+  <symbol id="chat_bubble" viewBox="0 0 24 24">
+    <path d="M8 9h8"/>
+  <path d="M8 13h5"/>
+  <path d="M21 11c0 4.418-4.03 8-9 8-1.038 0-2.04-.137-2.981-.392L4 20l1.392-4.019A8.96 8.96 0 0 1 3 11c0-4.418 4.03-8 9-8s9 3.582 9 8Z"/>
+  </symbol>
+  <symbol id="check_badge" viewBox="0 0 24 24">
+    <path d="M12 2l2.39 2.39L17 5l.61 2.61L20 10l-2.39 2.39L17 15l-2.61.61L12 18l-2.39-2.39L7 15l-.61-2.61L4 10l2.39-2.39L7 5l2.61-.61L12 2z"/>
+  <path d="M9 10.5l2 2 4-4"/>
+  </symbol>
+  <symbol id="chevron_down" viewBox="0 0 24 24">
+    <path d="M6 9l6 6 6-6"/>
+  </symbol>
+  <symbol id="chevron_right" viewBox="0 0 24 24">
+    <path d="M9 6l6 6-6 6"/>
+  </symbol>
+  <symbol id="circle_check" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9"/>
+  <path d="M8.5 12.5l2.5 2.5 4.5-5"/>
+  </symbol>
+  <symbol id="clock" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9"/>
+  <path d="M12 7v5l3 3"/>
+  </symbol>
+  <symbol id="code_braces" viewBox="0 0 24 24">
+    <path d="M8 8l-3 4 3 4"/>
+  <path d="M16 8l3 4-3 4"/>
+  </symbol>
+  <symbol id="paper_plane" viewBox="0 0 24 24">
+    <path d="M22 2L11 13"/>
+  <path d="M22 2l-7 20-4-9-9-4 20-7z"/>
+  </symbol>
+  <symbol id="phone" viewBox="0 0 24 24">
+    <path d="M22 16.92v2a2 2 0 0 1-2.18 2 19.83 19.83 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.83 19.83 0 0 1-3.07-8.65A2 2 0 0 1 4.1 1h2a2 2 0 0 1 2 1.72c.12.91.33 1.79.62 2.64a2 2 0 0 1-.45 2.11L7.1 8.9a16 16 0 0 0 6 6l1.43-1.17a2 2 0 0 1 2.11-.45c.85.29 1.73.5 2.64.62A2 2 0 0 1 22 16.92Z"/>
+  </symbol>
+  <symbol id="plus" viewBox="0 0 24 24">
+    <path d="M12 5v14"/>
+  <path d="M5 12h14"/>
+  </symbol>
+  <symbol id="refresh_cw" viewBox="0 0 24 24">
+    <path d="M21 12a9 9 0 1 1-2.64-6.36"/>
+  <path d="M21 3v6h-6"/>
+  </symbol>
+  <symbol id="route_network" viewBox="0 0 24 24">
+    <circle cx="6" cy="6" r="2"/>
+  <circle cx="18" cy="6" r="2"/>
+  <circle cx="12" cy="18" r="2"/>
+  <path d="M8 6h8"/>
+  <path d="M12 8v6"/>
+  </symbol>
+  <symbol id="settings_gear" viewBox="0 0 24 24">
+    <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c0 .66.39 1.26 1 1.51H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+  </symbol>
+  <symbol id="sidebar_collapse" viewBox="0 0 24 24">
+    <path d="M10 6l-4 6 4 6"/>
+  <path d="M14 6l4 6-4 6"/>
+  </symbol>
+  <symbol id="sliders" viewBox="0 0 24 24">
+    <path d="M4 21v-7"/>
+  <path d="M4 10V3"/>
+  <path d="M12 21v-9"/>
+  <path d="M12 8V3"/>
+  <path d="M20 21v-5"/>
+  <path d="M20 12V3"/>
+  <rect x="1" y="9" width="6" height="4" rx="2"/>
+  <rect x="9" y="6" width="6" height="4" rx="2"/>
+  <rect x="17" y="14" width="6" height="4" rx="2"/>
+  </symbol>
+  <symbol id="trash" viewBox="0 0 24 24">
+    <path d="M3 6h18"/>
+  <path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+  <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>
+  <path d="M10 11v6"/>
+  <path d="M14 11v6"/>
+  </symbol>
+  <symbol id="user" viewBox="0 0 24 24">
+    <circle cx="12" cy="8" r="4"/>
+  <path d="M4 20a8 8 0 0 1 16 0"/>
+  </symbol>
+  <symbol id="user_smiley" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9"/>
+  <path d="M9 10h.01"/>
+  <path d="M15 10h.01"/>
+  <path d="M9 14c.8 1.2 2.2 2 3 2s2.2-.8 3-2"/>
+  </symbol>
+  <symbol id="x_close" viewBox="0 0 24 24">
+    <path d="M18 6L6 18"/>
+  <path d="M6 6l12 12"/>
+  </symbol>
+  </svg>
+
+  <div class="bar">
+    <h1>Parloa Icon Pack – All SVGs</h1>
+    <p class="lead">Single-file sprite + copy-paste snippets. Generated 2025-08-21T00:00:39.643187Z</p>
+    <span class="pill">23 icons</span>
+    <span class="pill">Inline sprite</span>
+  </div>
+
+  <div class="grid">
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#anchor"/></svg>
+        <div class="meta">
+          <div class="name">anchor</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#anchor" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#beaker"/></svg>
+        <div class="meta">
+          <div class="name">beaker</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#beaker" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#book"/></svg>
+        <div class="meta">
+          <div class="name">book</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#book" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#call_tab"/></svg>
+        <div class="meta">
+          <div class="name">call_tab</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#call_tab" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#chat_bubble"/></svg>
+        <div class="meta">
+          <div class="name">chat_bubble</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#chat_bubble" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#check_badge"/></svg>
+        <div class="meta">
+          <div class="name">check_badge</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#check_badge" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#chevron_down"/></svg>
+        <div class="meta">
+          <div class="name">chevron_down</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#chevron_down" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#chevron_right"/></svg>
+        <div class="meta">
+          <div class="name">chevron_right</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#chevron_right" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#circle_check"/></svg>
+        <div class="meta">
+          <div class="name">circle_check</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#circle_check" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#clock"/></svg>
+        <div class="meta">
+          <div class="name">clock</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#clock" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#code_braces"/></svg>
+        <div class="meta">
+          <div class="name">code_braces</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#code_braces" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#paper_plane"/></svg>
+        <div class="meta">
+          <div class="name">paper_plane</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#paper_plane" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#phone"/></svg>
+        <div class="meta">
+          <div class="name">phone</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#phone" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#plus"/></svg>
+        <div class="meta">
+          <div class="name">plus</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#plus" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#refresh_cw"/></svg>
+        <div class="meta">
+          <div class="name">refresh_cw</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#refresh_cw" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#route_network"/></svg>
+        <div class="meta">
+          <div class="name">route_network</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#route_network" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#settings_gear"/></svg>
+        <div class="meta">
+          <div class="name">settings_gear</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#settings_gear" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#sidebar_collapse"/></svg>
+        <div class="meta">
+          <div class="name">sidebar_collapse</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#sidebar_collapse" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#sliders"/></svg>
+        <div class="meta">
+          <div class="name">sliders</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#sliders" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#trash"/></svg>
+        <div class="meta">
+          <div class="name">trash</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#trash" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#user"/></svg>
+        <div class="meta">
+          <div class="name">user</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#user" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#user_smiley"/></svg>
+        <div class="meta">
+          <div class="name">user_smiley</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#user_smiley" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+      <div class="card">
+        <svg width="48" height="48" aria-hidden="true"><use href="#x_close"/></svg>
+        <div class="meta">
+          <div class="name">x_close</div>
+          <div class="vb">0 0 24 24</div>
+          <code>&lt;svg width="20" height="20"&gt;&lt;use href="#x_close" /&gt;&lt;/svg&gt;</code>
+        </div>
+      </div>
+    
+  </div>
+
+  <script type="application/json" id="manifest">{
+  "anchor": {
+    "file": "/mnt/data/parloa_svg_all/extracted/anchor.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Anchor",
+    "keywords": [
+      "anchor"
+    ]
+  },
+  "beaker": {
+    "file": "/mnt/data/parloa_svg_all/extracted/beaker.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Beaker",
+    "keywords": [
+      "beaker"
+    ]
+  },
+  "book": {
+    "file": "/mnt/data/parloa_svg_all/extracted/book.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Book",
+    "keywords": [
+      "book"
+    ]
+  },
+  "call_tab": {
+    "file": "/mnt/data/parloa_svg_all/extracted/call_tab.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Call Tab",
+    "keywords": [
+      "call",
+      "tab"
+    ]
+  },
+  "chat_bubble": {
+    "file": "/mnt/data/parloa_svg_all/extracted/chat_bubble.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Chat Bubble",
+    "keywords": [
+      "chat",
+      "bubble"
+    ]
+  },
+  "check_badge": {
+    "file": "/mnt/data/parloa_svg_all/extracted/check_badge.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Check Badge",
+    "keywords": [
+      "check",
+      "badge"
+    ]
+  },
+  "chevron_down": {
+    "file": "/mnt/data/parloa_svg_all/extracted/chevron_down.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Chevron Down",
+    "keywords": [
+      "chevron",
+      "down"
+    ]
+  },
+  "chevron_right": {
+    "file": "/mnt/data/parloa_svg_all/extracted/chevron_right.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Chevron Right",
+    "keywords": [
+      "chevron",
+      "right"
+    ]
+  },
+  "circle_check": {
+    "file": "/mnt/data/parloa_svg_all/extracted/circle_check.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Circle Check",
+    "keywords": [
+      "circle",
+      "check"
+    ]
+  },
+  "clock": {
+    "file": "/mnt/data/parloa_svg_all/extracted/clock.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Clock",
+    "keywords": [
+      "clock"
+    ]
+  },
+  "code_braces": {
+    "file": "/mnt/data/parloa_svg_all/extracted/code_braces.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Code Braces",
+    "keywords": [
+      "code",
+      "braces"
+    ]
+  },
+  "paper_plane": {
+    "file": "/mnt/data/parloa_svg_all/extracted/paper_plane.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Paper Plane",
+    "keywords": [
+      "paper",
+      "plane"
+    ]
+  },
+  "phone": {
+    "file": "/mnt/data/parloa_svg_all/extracted/phone.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Phone",
+    "keywords": [
+      "phone"
+    ]
+  },
+  "plus": {
+    "file": "/mnt/data/parloa_svg_all/extracted/plus.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Plus",
+    "keywords": [
+      "plus"
+    ]
+  },
+  "refresh_cw": {
+    "file": "/mnt/data/refresh_cw.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Refresh Cw",
+    "keywords": [
+      "refresh",
+      "cw"
+    ]
+  },
+  "route_network": {
+    "file": "/mnt/data/parloa_svg_all/extracted/route_network.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Route Network",
+    "keywords": [
+      "route",
+      "network"
+    ]
+  },
+  "settings_gear": {
+    "file": "/mnt/data/settings_gear.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Settings Gear",
+    "keywords": [
+      "settings",
+      "gear"
+    ]
+  },
+  "sidebar_collapse": {
+    "file": "/mnt/data/sidebar_collapse.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Sidebar Collapse",
+    "keywords": [
+      "sidebar",
+      "collapse"
+    ]
+  },
+  "sliders": {
+    "file": "/mnt/data/sliders.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Sliders",
+    "keywords": [
+      "sliders"
+    ]
+  },
+  "trash": {
+    "file": "/mnt/data/parloa_svg_all/extracted/trash.svg",
+    "viewBox": "0 0 24 24",
+    "title": "Trash",
+    "keywords": [
+      "trash"
+    ]
+  },
+  "user": {
+    "file": "/mnt/data/parloa_svg_all/extracted/user.svg",
+    "viewBox": "0 0 24 24",
+    "title": "User",
+    "keywords": [
+      "user"
+    ]
+  },
+  "user_smiley": {
+    "file": "/mnt/data/user_smiley.svg",
+    "viewBox": "0 0 24 24",
+    "title": "User Smiley",
+    "keywords": [
+      "user",
+      "smiley"
+    ]
+  },
+  "x_close": {
+    "file": "/mnt/data/parloa_svg_all/extracted/x_close.svg",
+    "viewBox": "0 0 24 24",
+    "title": "X Close",
+    "keywords": [
+      "x",
+      "close"
+    ]
+  }
+}</script>
+</body>
+</html>

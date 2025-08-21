@@ -1,0 +1,82 @@
+{
+  "home_mark": {
+    "title": "Home Mark",
+    "category": "navigation",
+    "description": "Primary app entrypoint. Left-bar top logo/home button.",
+    "keywords": [
+      "home",
+      "logo",
+      "dashboard",
+      "parloa"
+    ],
+    "viewBox": "0 0 100 100",
+    "source_png": "/mnt/data/Left bar home icon.png"
+  },
+  "knowledge_book": {
+    "title": "Knowledge Book",
+    "category": "knowledge",
+    "description": "Knowledge Hub / Documentation / Library.",
+    "keywords": [
+      "docs",
+      "knowledge",
+      "kb",
+      "book",
+      "library"
+    ],
+    "viewBox": "0 0 100 100",
+    "source_png": "/mnt/data/Open Book.png"
+  },
+  "activity_dial": {
+    "title": "Activity Dial",
+    "category": "monitoring",
+    "description": "Activity, performance, or live metrics overview.",
+    "keywords": [
+      "metrics",
+      "monitor",
+      "analytics",
+      "speed",
+      "performance"
+    ],
+    "viewBox": "0 0 100 100",
+    "source_png": "/mnt/data/Timer.png"
+  },
+  "phone_incoming": {
+    "title": "Phone Incoming",
+    "category": "telephony",
+    "description": "Inbound call logs, call routing, or telephony entry.",
+    "keywords": [
+      "phone",
+      "inbound",
+      "calls",
+      "telephony",
+      "sip"
+    ],
+    "viewBox": "0 0 100 100",
+    "source_png": "/mnt/data/Incoming Call.png"
+  },
+  "help_circle": {
+    "title": "Help Circle",
+    "category": "support",
+    "description": "Help Center, support, or tutorials.",
+    "keywords": [
+      "help",
+      "support",
+      "faq",
+      "question"
+    ],
+    "viewBox": "0 0 100 100",
+    "source_png": "/mnt/data/Help.png"
+  },
+  "logout": {
+    "title": "Logout",
+    "category": "account",
+    "description": "Sign out / End session.",
+    "keywords": [
+      "logout",
+      "sign out",
+      "exit"
+    ],
+    "viewBox": "0 0 100 100",
+    "source_png": "/mnt/data/log out.png"
+  }
+}
